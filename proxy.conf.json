@@ -1,0 +1,13 @@
+
+{
+	"/cors": {
+		"target": "http://localhost:3000/",
+		"secure": false,
+		"timeout": 360000,
+		"logLevel": "debug",
+		"pathRewrite": {
+			"^/cors": ""
+		},
+		"changeOrigin": true
+	}
+}
